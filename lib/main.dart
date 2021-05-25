@@ -10,9 +10,9 @@ import 'package:susan/src/pages/imagenes_page.dart';
 import 'package:susan/src/pages/listview_page.dart';
 import 'package:susan/src/pages/stack_page.dart';
 
-void main() => runApp(CruzApp());
+void main() => runApp(SusanApp());
 
-class CruzApp extends StatelessWidget {
+class SusanApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
