@@ -16,7 +16,7 @@ class BotonesPage extends StatelessWidget {
                 onPressed: () {
                   print('Click');
                 },
-                color: Colors.blue,
+                color: Colors.yellow[200],
                 child: Text(
                   'Soy un Boton',
                   style: TextStyle(color: Colors.white),
@@ -39,13 +39,13 @@ class BotonesPage extends StatelessWidget {
               ),
               RaisedButton(
                 onPressed: () {},
-                color: Colors.orange,
+                color: Colors.green,
                 child: Text('Click'),
               )
-            ],
-          ), //column
-        ), //container
-      ), //body center
-    ); //scaffold
-  } //widget
+            ],// fin de widget[]
+          ), //fin de column
+        ), //fin del container
+      ), //fin de body center
+    ); //fin de scaffold
+  } // fin de widget
 } //clase botones page
