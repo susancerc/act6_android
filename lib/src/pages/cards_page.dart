@@ -30,13 +30,13 @@ class CardsPage extends StatelessWidget {
         child: Column(
           children: <Widget>[
             Text(
-              'Soy una Card',
+              'Animal Crossing',
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
             ),
             SizedBox(
               height: 20,
             ),
-            Text('Dolore aliquip exercitation eiusmod elit est incididunt sint mollit aliqua ex. Pariatur ullamco dolore in ad mollit veniam occaecat. Irure sint elit quis minim.')
+            Text('Animal crossing es una serie de videojuegos de simulación de vida publicada por Nintendo y creada por Katsuya Eguchi y Hisashi Nogami, ​​​​​ en la que el jugador vive en un pueblo habitado por animales antropomórficos, llevando a cabo diversas actividades')
           ],
         ),
       ),
@@ -46,21 +46,21 @@ class CardsPage extends StatelessWidget {
   Widget _crearCard2() {
     return Card(
       elevation: 5,
-      color: Colors.deepPurple,
+      color: Colors.yellow[200],
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       child: Container(
         padding: EdgeInsets.all(20),
         child: Column(
           children: <Widget>[
             Text(
-              'Soy una Card',
+              'Mi proyecto',
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20, color: Colors.white),
             ),
             SizedBox(
               height: 20,
             ),
             Text(
-              'Dolore aliquip exercitation eiusmod elit est incididunt sint mollit aliqua ex. Pariatur ullamco dolore in ad mollit veniam occaecat. Irure sint elit quis minim.',
+              'En mi proyecto final tengo planeado hacer un cafeinternet con la tematica de mi videojuego favorito, para que este, aparte de ser un cybercafe, tenga un menu de postres inspirados en el videojuego',
               style: TextStyle(color: Colors.white),
             )
           ],
@@ -80,12 +80,12 @@ class CardsPage extends StatelessWidget {
               borderRadius: BorderRadius.only(topRight: Radius.circular(20), topLeft: Radius.circular(20)),
               child: FadeInImage(
                 placeholder: AssetImage('assets/loading.gif'),
-                image: NetworkImage('https://i.pinimg.com/originals/77/98/be/7798be70edfa36d319dd72bbb85d28bd.png'),
+                image: NetworkImage('https://i.pinimg.com/originals/43/12/1e/43121e08d8098394bcf5c5ba4bd0c4be.jpg'),
               ),
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Text('Soy una card con imagen'),
+              child: Text('(card de imagen) mi idea'),
             )
           ],
         ),
@@ -93,3 +93,4 @@ class CardsPage extends StatelessWidget {
     );
   }
 }
+
