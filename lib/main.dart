@@ -16,7 +16,7 @@ class SusanApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Ruta Paginas susan',
+      title: 'Ruta "paginas" de cervantes',
       debugShowCheckedModeBanner: false,
       initialRoute: 'home',
       routes: {
@@ -26,11 +26,11 @@ class SusanApp extends StatelessWidget {
         'stack': (BuildContext context) => StackPage(),
         'image': (BuildContext context) => ImagenesPage(),
         'cards': (BuildContext context) => CardsPage(),
-        'circle': (BuildContext context) => CirclePage(),
+        'contactos': (BuildContext context) => CirclePage(),
         'alert': (BuildContext context) => AlertPage(),
         'form': (BuildContext context) => FormulariosPage(),
         'list': (BuildContext context) => ListViewPage(),
-      }, //fin routes
-    );
-  } //fin widget
-} //fin class
+      }, //fin de routes
+    ); // fin de material app
+  } //fin de widget
+} //fin class susan app
