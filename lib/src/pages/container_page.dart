@@ -5,22 +5,23 @@ class ContainerPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Contenedores'),
+        title: Text('Contenedores de susi'),
       ),
       body: Container(
         child: Center(
           child: Container(
             height: 200,
             width: 200,
-            color: Colors.purpleAccent,
+            color: Colors.pink,
             child: Center(
                 child: Text(
-              'Hola soy un texto',
+              'Hola soy un texto en un cuadro rosita',
               style: TextStyle(color: Colors.white),
             )),
-          ),
-        ),
-      ),
+          ),// fin de niño
+        ),// fin de contenedor
+      ),// fin de body
     ); //fin scaffold
   } //fin widget
 } //fin de container class
+
