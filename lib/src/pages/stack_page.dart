@@ -12,7 +12,7 @@ class StackPage extends StatelessWidget {
           ClipRRect(
             borderRadius: BorderRadius.only(bottomRight: Radius.circular(20)),
             child: Container(
-              color: Colors.blueAccent,
+              color: Colors.yellow,
             ),
           ),
           ClipRRect(
@@ -20,7 +20,7 @@ class StackPage extends StatelessWidget {
             child: Container(
               height: 300,
               width: 300,
-              color: Colors.red,
+              color: Colors.yellow[200],
             ),
           ),
           ClipRRect(
@@ -28,7 +28,7 @@ class StackPage extends StatelessWidget {
             child: Container(
               height: 150,
               width: 150,
-              color: Colors.purpleAccent,
+              color: Colors.lime[300],
             ),
           )
         ],
