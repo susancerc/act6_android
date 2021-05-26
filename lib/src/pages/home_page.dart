@@ -5,7 +5,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Widgets App'),
+          title: Text("App de cervantes"),
         ),
         body: ListView(
           children: <Widget>[
@@ -42,4 +42,4 @@ class HomePage extends StatelessWidget {
     ); //fin del returnlistitle
   } //fin widget crearitem
 
-} //fin de la clase homepage
+} //fin class HomePage
