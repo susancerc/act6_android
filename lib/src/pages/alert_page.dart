@@ -24,13 +24,13 @@ class AlertPage extends StatelessWidget {
             ),
             FlatButton(
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-              color: Colors.blue,
+              color: Colors.brown[200],
               onPressed: () {
                 key.currentState.showSnackBar(SnackBar(
-                  content: Text('Hola, soy una Snacbar'),
+                  content: Text('Hola, acabas de presionar el snackbar'),
                 ));
               },
-              child: Text('Mostar Snackbar'),
+              child: Text('Mostrar Snackbar'),
             )
           ],
         ),
@@ -56,7 +56,7 @@ class AlertPage extends StatelessWidget {
           onPressed: () {
             Navigator.pop(context);
           },
-          child: Text('Okay!'),
+          child: Text('Arre arre'),
         )
       ],
     );
@@ -66,7 +66,7 @@ class AlertPage extends StatelessWidget {
     return AlertDialog(
       title: Text('Hola', style: TextStyle(color: Colors.white)),
       elevation: 5,
-      backgroundColor: Colors.deepPurple,
+      backgroundColor: Colors.green,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       content: Text('Soy una alerta', style: TextStyle(color: Colors.white)),
       actions: <Widget>[
