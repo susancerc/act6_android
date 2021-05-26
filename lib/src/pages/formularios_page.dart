@@ -48,7 +48,6 @@ class FormulariosPage extends StatelessWidget {
     return Container(
       padding: EdgeInsets.all(15),
       child: TextFormField(
-        obscureText: true,
         decoration: InputDecoration(labelText: 'Email', icon: Icon(Icons.email), hintText: 'Email'),
       ),
     );
